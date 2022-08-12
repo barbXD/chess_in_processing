@@ -16,6 +16,25 @@ PShape kingB;
 void setup() {
     size(496, 496);
     noStroke();
+
+
+    // This is loading all the images for the chess pieces
+
+    pawnW = loadShape("Chess_plt45.svg");
+    pawnB = loadShape("Chess_pdt45.svg");
+    knightW = loadShape("Chess_nlt45.svg");
+    knightB = loadShape("Chess_ndt45.svg");
+    rookW = loadShape("Chess_rlt45.svg");
+    rookB = loadShape("Chess_rdt45.svg");
+    bishopW = loadShape("Chess_blt45.svg");
+    bishopB = loadShape("Chess_bdt45.svg");
+    queenW = loadShape("Chess_qlt45.svg");
+    queenB = loadShape("Chess_qdt45.svg");
+    kingW = loadShape("Chess_klt45.svg");
+    kingB = loadShape("Chess_kdt45.svg");
+    
+    
+
 }
 
 void draw() {
@@ -37,4 +56,9 @@ void draw() {
 
     }
     
+    // Actually showing the pawns in the board
+    shape(pawnB, 0, height/8, 60, 60);
+    shape(pawnB, width/8, height/8, 60, 60);
+    shape(pawnB, width*2/8, height/8, 60, 60);
+
 }
