@@ -41,7 +41,7 @@ void draw() {
     
     background(153, 102, 0);
 
-    //Procedurally generater board, nothing to fancy just two loops one for each axis
+    //Procedurally generater board, nothing too fancy just two loops one for each axis
     // I'm just doing half of the work by actually making the white squares only
     // it just might lead to problems in the future when I have to code the movements for the pieces
     // but for now im just gonna roll with it hoping I can get away with it

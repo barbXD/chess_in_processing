@@ -4,14 +4,8 @@
 
 class Pawn {
 
-    PawnWhite() {
+    Pawn(boolean == white ) {
 
 
     }
-
-    PawnBlack() {
-
-        
-    }
-
 }
