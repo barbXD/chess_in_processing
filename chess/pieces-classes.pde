@@ -7,8 +7,14 @@
 * for all the common attributes all pieces have despite their role,
 * colour, or place*/
 
-public class pieces {
+public class Pieces {
 
+    // Making a boolean for defining either white or black pieces
+    // I assume that making white true is the best option as you
+    // the white pieces have the first turn
+    boolean white = true;
+
+    
     // Actually showing the pawns in the board
     
 

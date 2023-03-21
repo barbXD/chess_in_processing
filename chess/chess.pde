@@ -15,7 +15,7 @@ void setup() {
     size(496, 496);
     noStroke();
 
-
+    Pawn pawn = new pawn();
     // This is loading all the images for the chess pieces
 
     pawnW = loadShape("Chess_plt45.svg");
