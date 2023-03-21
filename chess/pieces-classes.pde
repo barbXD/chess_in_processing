@@ -9,12 +9,23 @@
 
 public class Pieces {
 
+    PShape Pieces;
     // Making a boolean for defining either white or black pieces
     // I assume that making white true is the best option as you
     // the white pieces have the first turn
     boolean white = true;
 
-    
+    if (white == true) {
+        
+        Pieces = loadShape(if () {
+            
+        });
+
+    } else {
+        
+
+
+    }
     // Actually showing the pawns in the board
     
 

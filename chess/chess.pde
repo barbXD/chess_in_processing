@@ -1,15 +1,3 @@
-PShape knightW;
-PShape knightB;
-PShape rookW;
-PShape rookB;
-PShape bishopW;
-PShape bishopB;
-PShape queenW;
-PShape queenB;
-PShape kingW;
-PShape kingB;
-
-
 
 void setup() {
     size(496, 496);
@@ -18,8 +6,6 @@ void setup() {
     Pawn pawn = new pawn();
     // This is loading all the images for the chess pieces
 
-    pawnW = loadShape("Chess_plt45.svg");
-    pawnB = loadShape("Chess_pdt45.svg");
     knightW = loadShape("Chess_nlt45.svg");
     knightB = loadShape("Chess_ndt45.svg");
     rookW = loadShape("Chess_rlt45.svg");
