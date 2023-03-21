@@ -1,5 +1,3 @@
-PShape pawnW;
-PShape pawnB;
 PShape knightW;
 PShape knightB;
 PShape rookW;
