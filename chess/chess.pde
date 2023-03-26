@@ -1,12 +1,15 @@
 
+
+
 void setup() {
     size(496, 496);
     noStroke();
 
-    Pawn pawn = new pawn();
+    
+    Pawn pawn = new Pawn();
     // This is loading all the images for the chess pieces
 
-    knightW = loadShape("Chess_nlt45.svg");
+    /*knightW = loadShape("Chess_nlt45.svg");
     knightB = loadShape("Chess_ndt45.svg");
     rookW = loadShape("Chess_rlt45.svg");
     rookB = loadShape("Chess_rdt45.svg");
@@ -16,7 +19,7 @@ void setup() {
     queenB = loadShape("Chess_qdt45.svg");
     kingW = loadShape("Chess_klt45.svg");
     kingB = loadShape("Chess_kdt45.svg");
-    
+    */
     
 
 }

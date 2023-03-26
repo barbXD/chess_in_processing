@@ -6,10 +6,23 @@
 * so I'll do it that way better so this file will just be the parent class
 * for all the common attributes all pieces have despite their role,
 * colour, or place*/
+// PShape Pieces;
 
 public class Pieces {
 
-    PShape Pieces;
+    // PShape Pieces;
+
+    int posX;
+    int posY;
+    int shapeWidth;
+    int shapeHeight;
+
+    int size;
+
+    int whitePiece;
+    int blackPiece;
+
+
     // Making a boolean for defining either white or black pieces
     // I assume that making white true is the best option as you
     // the white pieces have the first turn
@@ -17,16 +30,18 @@ public class Pieces {
 
     if (white == true) {
         
-        Pieces = loadShape(if () {
-            
-        });
+        loadShape(whitePiece);
 
     } else {
         
-
+        loadShape(blackPiece);
 
     }
     // Actually showing the pawns in the board
     
+    void show(){
 
+
+
+    }
 }
