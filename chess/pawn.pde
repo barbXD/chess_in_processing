@@ -1,4 +1,4 @@
-public class Pawn extends Pieces{
+public class pawn extends pieces{
 
     PShape pawnW;
     PShape pawnB;

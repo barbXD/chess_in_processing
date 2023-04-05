@@ -8,7 +8,7 @@
 * colour, or place*/
 // PShape Pieces;
 
-public class Pieces {
+public class pieces_parent {
 
     // PShape Pieces;
 
@@ -22,26 +22,26 @@ public class Pieces {
     int whitePiece;
     int blackPiece;
 
-
+    
     // Making a boolean for defining either white or black pieces
     // I assume that making white true is the best option as you
     // the white pieces have the first turn
     boolean white = true;
-
-    if (white == true) {
-        
+    
+    if  (white == true) {
+      
         loadShape(whitePiece);
 
-    } else {
+    }  else {
         
         loadShape(blackPiece);
 
     }
     // Actually showing the pawns in the board
     
-    void show(){
+    /*void show(){
 
 
 
-    }
+    }*/
 }

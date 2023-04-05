@@ -6,7 +6,7 @@ void setup() {
     noStroke();
 
     
-    Pawn pawn = new Pawn();
+    pawn Pawn = new Pawn();
     // This is loading all the images for the chess pieces
 
     /*knightW = loadShape("Chess_nlt45.svg");
