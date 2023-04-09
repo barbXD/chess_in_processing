@@ -1,12 +1,29 @@
+/*  Just like you were warned in the readme in github
+    this is just a project I'm doing for fun and also
+    I'm a beginner so this is gonna be messy/unefficient.
+    Even if I'm trying my best to apply mr. Torvalds advice
+    or never nesting over 3 times.
 
+    So yeah if you see the commits I do sometimes I lose my sanity haha
+    As you can tell I would love getting some advice about what the hell I'm doing
 
+    So if you know java your help will be super helpful (as processing is just java in the core
+    and just adds some new functions and more ease with math operations)
 
+    Also any advice on how to improve my formatting will be very welcomed too!!
+
+    Thank you so much for checking my shitty ass github profile and this code hahaha
+
+    No, I will not mature and be more formal :P
+
+*/
 void setup() {
+
     size(496, 496);
     noStroke();
 
-    
-    pawn Pawn = new Pawn();
+    piecesparent Parent = new piecesparent();
+    pawn Pawn = new pawn();
     // This is loading all the images for the chess pieces
 
     /*knightW = loadShape("Chess_nlt45.svg");
