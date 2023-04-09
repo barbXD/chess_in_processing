@@ -6,9 +6,8 @@
 * so I'll do it that way better so this file will just be the parent class
 * for all the common attributes all pieces have despite their role,
 * colour, or place*/
-// PShape Pieces;
 
-public class pieces_parent {
+class piecesparent {
 
     // PShape Pieces;
 
@@ -24,7 +23,7 @@ public class pieces_parent {
 
     
     // Making a boolean for defining either white or black pieces
-    // I assume that making white true is the best option as you
+    // I assume that making white true is the best option as
     // the white pieces have the first turn
     boolean white = true;
     
